@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(29, 26, 26);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(216, 237, 255);
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(44, 40, 40, 0.1);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.profile h1 {
+  margin: 0;
+  height: 0;
+  font-size: 2.2rem;
+}
+
+.profile .title {
+  font-size: 1.1rem;
+  color: rgb(59, 55, 55);
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: darkcyan;
+  border-bottom: 3px solid darkcyan;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+p, ul {
+  margin: 7px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+.contact a {
+  color: darkcyan   ;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.skills, .languages {
+  margin-bottom: 30px;
+}
+
+.skills ul, .languages ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills ul li, .languages ul li {
+  margin: 6px;
+}
